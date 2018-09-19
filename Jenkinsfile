@@ -27,11 +27,11 @@ pipeline {
           }
       }
     }
-    /*stage('Archive artifacts'){
+    stage('Archive artifacts'){
       steps{
         archiveArtifacts artifacts: '**///apk/app-debug.apk', onlyIfSuccessful: true
-     /* }
-    }*/
+      }
+    }
   }//end stages
   /*post {
     always {
