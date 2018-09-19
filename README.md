@@ -1,3 +1,8 @@
+CI/CD Demo
+==========
+
+This demonstrates an automated build, test and deploy of the Animate android application.  Tests are done on an Appium test framework and deploys to a test device/emulator.
+
 Animate
 =======
 
